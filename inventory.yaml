@@ -4,5 +4,14 @@
 [web_servers]
 192.168.56.114 ansible_user=justinlim
 
+[prometheus_server1]
+192.168.56.112
+
+[prometheus_server2]
+192.168.56.114
+
+[all_node_exporter:children]
+debian_servers
+centos_servers
 
 
