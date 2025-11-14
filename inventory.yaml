@@ -1,0 +1,8 @@
+[db_servers]
+192.168.56.112 ansible_user=vboxuser
+
+[web_servers]
+192.168.56.114 ansible_user=justinlim
+
+
+
