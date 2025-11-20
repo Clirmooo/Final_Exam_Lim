@@ -1,0 +1,5 @@
+- name: Update MOTD
+  lineinfile:
+    path: /etc/motd
+    line: "Ansible Managed by {{ ansible_user }}"
+
